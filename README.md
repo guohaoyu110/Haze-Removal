@@ -8,7 +8,7 @@ Fast Haze Removal Algorithm for Surveillance Video   这是一篇讲如何对视
 Fast image dehazing using guided joint bilateral filter
 Efficient Image Dehazing with Boundary Constraint and Contextual Regularization
 
-###何恺明之前单幅图像去雾的经典方法是：
+### 何恺明之前单幅图像去雾的经典方法是：
 （1）最大化局部对比度：R. Tan, Visibility in Bad Weather from a Single Image, CVPR’08
 （2）独立成分分析：R. Fattal, Single Image Dehazing, SIGGRAPH’08
 
@@ -16,7 +16,7 @@ Efficient Image Dehazing with Boundary Constraint and Contextual Regularization
 下面试几篇比较新的去雾文献，文章等级比较高，大家感兴趣可以根据文章题目自行查询下载文献。
 我发现大部分去雾方法中，主要还是提出新颖的算法致力于对大气光值的准确估计以及透射率的计算和修正。
 
-###单幅图像
+### 单幅图像
 
 1、2008,Single image dehazing,R. Fattal,ACM Transactions on Graphics.
 2、2014,Efficient Image Dehazing with Boundary Constraint and Contextual Regularization, G. Meng, Y. Wang, J. Duan, S. Xiang and C. Pan,ICCV            
@@ -58,7 +58,7 @@ Jin-Hwan Kim, optimized contrast enhancement for real-time image and video dehaz
 ECCV2016 Single Image Dehazing via Multi-Scale Convolutional Neural Networks，主页
 2015年的一篇CVPR，主页有代码，Simultaneous Video Defogging and Stereo Reconstruction 链接 
 此外还有文章主页：http://www.lizhuwen.com/pages/Stereo%20in%20Fog.html
-###关于去雾算法质量评价对比 
+### 关于去雾算法质量评价对比 
 1、Zhengying Chen，Quality Assessment for Comparing Image Enhancement Algorithms（CVPR2014），基于学习的去雾算法排序方法，据说有数据库，但得填表找他们要，主页 
 2、Gibson，A No-Reference Perceptual Based Contrast Enhancement Metric for Ocean Scenes in Fog（TIP，2013），一种CEM评价方法，不过也是基于学习的，数据库和代码都有。主页 
 3、Hautiere，Blind contrast enhancement assessment by gradient ratioing at visible edges，三种忙评价方法。代码网络上有，原作者编写的在这里，主页
